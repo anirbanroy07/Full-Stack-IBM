@@ -1,0 +1,124 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+nav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+}
+
+/* Profile Button */
+.profile-container {
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.profile-container img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+/* Carousel Section */
+.caurosel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #bde0dc;
+}
+.caurosel img {
+    width: 80%;
+    max-width: 900px;
+    border-radius: 15px;
+}
+
+/* Recharge and Bill Payments Section */
+.section-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    background-color: white;
+}
+
+.section {
+    text-align: center;
+    width: 45%;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.section-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.section-icons div {
+    text-align: center;
+}
+.section-icons img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Payment Box */
+.bottom-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e6f7ff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 90%;
+    margin: 10px auto;
+    font-size: 16px;
+}
+
+.bottom-card div {
+    display: flex;
+    align-items: center;
+}
+.bottom-card img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.bottom-card a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}

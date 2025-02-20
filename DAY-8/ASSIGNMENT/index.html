@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <div id="container">
+        <div id="answer"></div>
+        <div id="keys-container">
+            <button id="key">8</button>
+            <button id="key">7</button>
+            <button id="key">9</button>
+            <button id="key">%</button>
+            <button id="key">4</button>
+            <button id="key">5</button>
+            <button id="key">6</button>
+            <button id="key">*</button>
+            <button id="key">1</button>
+            <button id="key">2</button>
+            <button id="key">3</button>
+            <button id="key">-</button>
+            <button id="key">0</button>
+            <button id="key">(</button>
+            <button id="key">)</button>
+            <button id="key">+</button>
+            <div id="end">
+                <button id="key">AC</button>
+                <button id="key">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("body").style.display = "flex";
+        document.getElementById("body").style.flexDirection = "column";
+        document.getElementById("body").style.justifyContent = "center";
+        document.getElementById("body").style.alignItems = "center";
+
+        document.getElementById("container").style.backgroundColor = "rgb(128, 33, 33)";
+        document.getElementById("container").style.border = "1px solid black";
+        document.getElementById("container").style.borderRadius = "15px";
+        document.getElementById("container").style.marginTop = "40px";
+        document.getElementById("container").style.padding = "10px";
+
+        document.getElementById("answer").style.backgroundColor = "rgb(214, 157, 157)";
+        document.getElementById("answer").style.borderRadius = "15px";
+        document.getElementById("answer").style.margin = "5px";
+        document.getElementById("answer").style.width = "400px";
+        document.getElementById("answer").style.height = "200px";
+
+        document.getElementById("keys-container").style.display = "grid";
+        document.getElementById("keys-container").style.gridTemplateColumns = "repeat(4, 100px)";
+        document.getElementById("keys-container").style.width = "400px";
+
+        document.getElementById("end").style.width = "400px";
+        document.getElementById("end").style.display = "flex";
+    </script>
+</body>
+</html>
